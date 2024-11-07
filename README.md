@@ -31,7 +31,7 @@ yay -Syu git hyprland waybar wofi alacritty brightnessctl gtk-engine-murrine nwg
 paru -Syu git hyprland waybar wofi alacritty brightnessctl gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf
 ```
 
-2. Clone this repository and copy all of the config files.
+### 2. Clone this repository and copy all of the config files.
 
 ```bash
 git clone https://github.com/FuSiioNz/dotfiles.git
@@ -39,10 +39,10 @@ cd ~/dotfiles
 cp -r dotfiles/* ~/.config/
 ```
 
-3. Install the GTK Theme and the Icons
+### 3. Install the GTK Theme and the Icons
 You can follow the instructions for both of these by clicking on the respective links in the **Required Apps** Section
 
-4. Download the necessary fonts:
+### 4. Download the necessary fonts:
 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) 
 [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)
 
