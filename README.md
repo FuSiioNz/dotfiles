@@ -114,7 +114,7 @@ Congratulations! You are done. Restart your system and from your login manager c
 
 ### Screenshots
 
-- **Region Screenshot**: <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>s</kbd>
+- **Region Screenshot**: <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>
 
 - **Full Screenshot**: <kbd>SUPER</kbd> + <kbd>Print</kbd>
 
