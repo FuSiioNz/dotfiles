@@ -91,28 +91,30 @@ Congratulations! You are done. Restart your system and from your login manager c
 
 ## Useful Keybindings
 
-- **Launch Terminal**  <kbd>Super</kbd> + <kbd>Return</kbd> 
+- **Launch Terminal**  <kbd>SUPER</kbd> + <kbd>Return</kbd> 
 
-- **Restart Waybar**  <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>     
+- **Restart Waybar**  <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>     
 
-- **Kill Active Window**  <kbd>Super</kbd> + <kbd>C</kbd>  
+- **Kill Active Window**  <kbd>SUPER</kbd> + <kbd>C</kbd>  
 
-- **Launch Wofi Menu**  <kbd>Super</kbd> + <kbd>R</kbd>
+- **Launch Wofi Menu**  <kbd>SUPER</kbd> + <kbd>R</kbd>
   
-- **Launch File Manager (Thunar)**  <kbd>Super</kbd> + <kbd>E</kbd
+- **Launch File Manager (Thunar)**  <kbd>SUPER</kbd> + <kbd>E</kbd
 
-- **Launch Browser**  <kbd>Super</kbd> + <kbd>B</kbd>  
+- **Launch Browser**  <kbd>SUPERr</kbd> + <kbd>B</kbd>  
 
-- **Exit Environment**   <kbd>Super</kbd> + <kbd>M</kbd>  
+- **Exit Environment**   <kbd>SUPER</kbd> + <kbd>M</kbd>  
 
-- **Toggle Floating Window**  <kbd>Super</kbd> + <kbd>V</kbd>  
+- **Toggle Floating Window**  <kbd>SUPER</kbd> + <kbd>V</kbd>  
 
-- **Toggle Split Layout**  <kbd>Super</kbd> + <kbd>J</kbd>  
+- **Toggle Split Layout**  <kbd>SUPER</kbd> + <kbd>J</kbd>  
 
 - **Cycle Through Windows**  <kbd>Alt</kbd> + <kbd>Tab</kbd>
 
-- **Region Screenshot**: <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>s</kbd>
+- **Region Screenshot**: <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>s</kbd>
 
-- **Full Screenshot**: <kbd>Mod</kbd> + <kbd>Print</kbd>
+- **Full Screenshot**: <kbd>SUPER</kbd> + <kbd>Print</kbd>
+
+If you want to replace <kbd>SUPER<kbd> with <kbd>Alt<kbd> edit the line 120 in hyprland.conf ```bash $mainMod = SUPER```
   
 You can see all the hyprland and application keybinds in ~/.hypr/hyprland.conf
