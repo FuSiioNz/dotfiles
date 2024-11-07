@@ -79,7 +79,7 @@ If any or for some reason all of those groups are missing then you can just simp
 sudo usermod -aG video,audio,storage,mpd <username>
 ```
 
-Finally, to make the weather script work correctly(and to avoid potentially crashing your waybar) you must add information to the weather script.
+Finally, to make the weather script work correctly (and to avoid potentially crashing your waybar) you must add information to the weather script.
 Go to the said script location in ``` ~/.config/waybar/scripts/``` and open ```get_weather.sh``` with your prefered code or text editor.
 
 On lines 3 and 11 replace "location" with proper location name. You can check your current location on wttr.in.
