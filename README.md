@@ -2,7 +2,7 @@
 
 This is my personalized Hyprland Arch Linux setup.
 
-## Required Apps
+## Essentials
 
 - **WM**: Hyprland
 - **Bar**: Waybar
@@ -66,7 +66,7 @@ For the Font Awesome you can either download it from the internet or from AUR:
 yay -S ttf-font-awesome
 paru -S ttf-font-awesome
 ```
-After that put all of the fonts in ~/.local/share/fonts folder and refresh the cache
+After that put all of the fonts in ```~/.local/share/fonts``` folder and refresh the cache
 ```bash
 fc-cache -rv 
 ```
@@ -117,4 +117,4 @@ Congratulations! You are done. Restart your system and from your login manager c
 
 If you want to replace <kbd>SUPER</kbd> with <kbd>Alt</kbd> edit the line 120 in hyprland.conf ```$mainMod = SUPER```
   
-You can see all the hyprland and application keybinds in ~/.config/hypr/hyprland.conf
+You can see all the hyprland and application keybinds in ```~/.config/hypr/hyprland.conf```
