@@ -28,7 +28,7 @@ yay -Syu git hyprland waybar wofi alacritty brightnessctl nwg-look mako thunar t
 ```
 ### Using `yay`:
 ```bash
-paru -Syu git hyprland waybar wofi alacritty brightness-ctl nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf
+paru -Syu git hyprland waybar wofi alacritty brightnessctl nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf
 ```
 
 2. Clone this repository and copy all of the config files.
