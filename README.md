@@ -117,4 +117,4 @@ Congratulations! You are done. Restart your system and from your login manager c
 
 If you want to replace <kbd>SUPER</kbd> with <kbd>Alt</kbd> edit the line 120 in hyprland.conf ```$mainMod = SUPER```
   
-You can see all the hyprland and application keybinds in ~/.hypr/hyprland.conf
+You can see all the hyprland and application keybinds in ~/.config/hypr/hyprland.conf
