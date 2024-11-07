@@ -8,8 +8,8 @@ This is my personalized Hyprland Arch Linux setup.
 - **Bar**: Waybar
 - **Launcher**: Wofi
 - **Terminal**: Alacritty
-- **GTK Theme**: Graphite-Dark by vinceliuice
-- **Icon Theme**: Tela-Black-Dark by vinceliuice
+- **GTK Theme**: [Graphite-Dark by vinceliuice](https://github.com/vinceliuice/Graphite-gtk-theme)
+- **Icon Theme**: [Tela-Black-Dark by vinceliuice](https://github.com/vinceliuice/Tela-circle-icon-theme)
 - **Wallpaper**: [This beauty here](link_to_wallpaper_image)
 - **Fonts**: IBM Plex Sans, IBM Plex Mono, Font Awesome
 - **Notification Daemon**: Mako
@@ -24,13 +24,12 @@ This is my personalized Hyprland Arch Linux setup.
 
 ### Using `yay`:
 ```bash
-yay -Syu git hyprland waybar wofi alacritty brightnessctl nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf
+yay -Syu git hyprland waybar wofi alacritty brightnessctl gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf
 ```
 ### Using `yay`:
 ```bash
-paru -Syu git hyprland waybar wofi alacritty brightnessctl nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf
+paru -Syu git hyprland waybar wofi alacritty brightnessctl gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf
 ```
-
 
 2. Clone this repository and copy all of the config files.
 
@@ -40,3 +39,19 @@ cd ~/dotfiles
 cp -r dotfiles/* ~/.config/
 ```
 
+3. Install the GTK Theme and the Icons
+You can follow the instructions for both of these by clicking on the respective links in the **Required Apps** Section
+
+4. Download the necessary fonts:
+[IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) 
+[IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)
+
+For the Font Awesome you can either download it from the internet or from AUR:
+```bash
+yay -S ttf-font-awesome
+paru -S ttf-font-awesome
+```
+After that put all of the fonts in ~/.local/share/fonts folder and refresh the cache
+```bash
+fc-cache -rv 
+```
