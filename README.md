@@ -11,6 +11,7 @@ This is my personalized Hyprland Arch Linux setup.
 - **GTK Theme**: [Graphite-Dark by vinceliuice](https://github.com/vinceliuice/Graphite-gtk-theme)
 - **Icon Theme**: [Tela-Black-Dark by vinceliuice](https://github.com/vinceliuice/Tela-circle-icon-theme), Papirus Icon Theme
 - **Wallpaper**: [This beauty here](https://github.com/dharmx/walls/blob/main/gruvbox/a_street_with_buildings_and_trees.png)
+- **Lockscreen**: Swaylock
 - **Fonts**: IBM Plex Sans, IBM Plex Mono, Font Awesome
 - **Notification Daemon**: Mako
 - **File Managers**: Thunar & Ranger
