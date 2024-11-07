@@ -44,8 +44,18 @@ git clone https://github.com/FuSiioNz/dotfiles.git
 cp -r dotfiles/* ~/.config/
 ```
 
-### 3. Install the GTK Theme and the Icons
-You can follow the instructions for both of these by clicking on the respective links in the **Required Apps** Section
+### 3. Install the GTK Theme, Icons and the Wallpaper
+You can follow the instructions for both GTK theme and the Icons by clicking on the respective links in the **Required Apps** Section.
+
+For the wallpaper:
+  1. Download the wallpaper by clicking on the hyperlink in **Required** section.
+  2. Create ~/Pictures/Wallpapers directory in your home folder.
+  3. Put the wallpaper in the recently created Wallpapers folder
+
+If you did the steps correctly the wallpaper location should look like this:
+```bash
+/home/<username>/Pictures/Wallpapers/<wallpaper.png>
+```
 
 ### 4. Download the necessary fonts:
 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) 
@@ -60,3 +70,4 @@ After that put all of the fonts in ~/.local/share/fonts folder and refresh the c
 ```bash
 fc-cache -rv 
 ```
+### 5. 
