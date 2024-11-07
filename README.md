@@ -1,6 +1,8 @@
 # Iridescence
 
 This is my personalized Hyprland Arch Linux setup.
+![screenshot_20241107_235320](https://github.com/user-attachments/assets/afcae7c3-3aad-4054-b9d8-0e4f5c1f397e)
+
 
 ## Essentials
 
