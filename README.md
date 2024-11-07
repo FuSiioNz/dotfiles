@@ -87,62 +87,38 @@ If you did everything correctly both of these lines should look something like t
 url="https://wttr.in/London?format=%c+%t"
 tooltip=$(curl -s -H 'Cache-Control: no-cache' "https://wttr.in/London?format=4")
 ```
-
 Congratulations! You are done. Restart your system and from your login manager choose Hyprland as your session if you haven't already and you are good to go.
 
-## Useful Keybinds
+## Useful Keybindings
 
-- **Launch Terminal**
-  Mod + RETURN
-  Launches the terminal application defined by $terminal.
-  bind = $mainMod, RETURN, exec, $terminal
+- **Launch Terminal**  
+  <kbd>Mod</kbd> + <kbd>Return</kbd>    
 
-- **Kill Active Window**
-  Mod + C
-  Closes the currently active window.
-  bind = $mainMod, C, killactive
+- **Kill Active Window**  
+  <kbd>Mod</kbd> + <kbd>C</kbd>  
 
-- **Launch Menu**
-  Mod + R
-  Opens the application menu defined by $menu.
-  bind = $mainMod, R, exec, $menu
+- **Launch Wofi Menu**  
+  <kbd>Mod</kbd> + <kbd>R</kbd>   
 
-- **Launch Browser**
-  Mod + B
-  Opens the browser defined by $browser.
-  bind = $mainMod, B, exec, $browser
+- **Launch Browser**  
+  <kbd>Mod</kbd> + <kbd>B</kbd>  
 
-- **Exit Environment**
-  Mod + M
-  Exits the current environment (e.g., session or window manager).
-  bind = $mainMod, M, exit
+- **Exit Environment**  
+  <kbd>Mod</kbd> + <kbd>M</kbd>  
 
-- **Launch File Manager**
-  Mod + E
-  Opens the file manager defined by $fileManager.
-  bind = $mainMod, E, exec, $fileManager
+- **Launch File Manager (Thunar)**  
+  <kbd>Mod</kbd> + <kbd>E</kbd>  
 
-- **Toggle Floating Window**
-  Mod + V
-  Toggles the floating state of the currently focused window.
-  bind = $mainMod, V, togglefloating
+- **Toggle Floating Window**  
+  <kbd>Mod</kbd> + <kbd>V</kbd>  
 
-- **Dwindle (Pseudo)**
-  Mod + P
-  Executes the pseudo function, often used for a "dwindling" window behavior.
-  bind = $mainMod, P, pseudo, # dwindle
+- **Toggle Split Layout**  
+  <kbd>Mod</kbd> + <kbd>J</kbd>  
 
-- **Toggle Split Layout**
-  Mod + J
-  Toggles the split layout for windows, typically used in tiling window managers like dwindle.
-  bind = $mainMod, J, togglesplit, # dwindle
+- **Cycle Through Windows**  
+  <kbd>Alt</kbd> + <kbd>Tab</kbd>  
 
-- **Cycle Through Windows**
-  Alt + Tab
-  Cycles to the next window in the list of open windows.
-  bind = ALT, Tab, cyclenext
+- **Restart Waybar**  
+  <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>  
 
-- **Launch Custom Script**
-  Mod + SHIFT + W
-  Executes a custom script for launching specific programs or actions, in this case, launch.sh located in the Waybar scripts directory.
-  bind = $mainMod SHIFT, W, exec, ~/.config/waybar/scripts/launch.sh
+You can see all the hyprland and application keybinds in ~/.hypr/hyprland.conf
