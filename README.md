@@ -24,14 +24,18 @@ This is my personalized Hyprland Arch Linux setup.
 
 ### Using `yay`:
 ```bash
-yay -Syu hyprland waybar wofi alacritty graphite-dark-git tela-icon-theme-gtk mako thunar ranger btop pfetch cava pywal
+yay -Syu git hyprland waybar wofi alacritty brightnessctl nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf
 ```
 ### Using `yay`:
 ```bash
-paru -Syu hyprland waybar wofi alacritty graphite-dark-git tela-icon-theme-gtk mako thunar ranger btop pfetch cava pywal
+paru -Syu git hyprland waybar wofi alacritty brightness-ctl nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf
 ```
 
-3. **Clone this repository** and copy the configuration files into their respective directories.
-4. **Set up the Pywal colorscheme** to match your preferred aesthetic.
-5. **Enjoy you
+2. Clone this repository and copy all of the config files.
+
+```bash
+git clone https://github.com/FuSiioNz/dotfiles.git
+cd ~/dotfiles
+cp -r dotfiles/* ~/.config/
+```
 
