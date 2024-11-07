@@ -123,9 +123,9 @@ Congratulations! You are done. Restart your system and from your login manager c
 
 - **Lock Screen**: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd>  
 
-- **Power Menu**: <kbd>Mod</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd>  
+- **Power Menu**: <kbd>SUPER</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd>  
 
-- **Set Wallpaper**: <kbd>Mod</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd>  
+- **Set Wallpaper**: <kbd>SUPER</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd>  
 
 If you want to replace <kbd>SUPER</kbd> with <kbd>Alt</kbd> edit the line 120 in hyprland.conf ```$mainMod = SUPER```
   
