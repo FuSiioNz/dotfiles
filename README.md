@@ -24,11 +24,11 @@ This is my personalized Hyprland Arch Linux setup.
 
 **Using** `yay`:
 ```bash
-yay -Syu git hyprland waybar wofi alacritty brightnessctl swww  gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd papirus-icon-theme ncmpcpp zathura-mupdf-pdf grim slurp pavucontrol pipewire pipewire-alsa pipewire-pulse bluez-utils blueman wireplumber
+yay -Syu git hyprland waybar wofi alacritty brightnessctl swww  gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd papirus-icon-theme ncmpcpp zathura-mupdf-pdf grim slurp pavucontrol pipewire pipewire-alsa pipewire-pulse bluez-utils blueman wireplumber swaylock
 ```
 **Using** `paru`:
 ```bash
-paru -Syu git hyprland waybar wofi alacritty brightnessctl swww  gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd papirus-icon-theme ncmpcpp zathura-mupdf-pdf grim slurp pavucontrol pipewire pipewire-alsa pipewire-pulse bluez-utils blueman wireplumber
+paru -Syu git hyprland waybar wofi alacritty brightnessctl swww  gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd papirus-icon-theme ncmpcpp zathura-mupdf-pdf grim slurp pavucontrol pipewire pipewire-alsa pipewire-pulse bluez-utils blueman wireplumber swaylock
 ```
 
 ### 2. Clone this repository and copy all of the config files.
