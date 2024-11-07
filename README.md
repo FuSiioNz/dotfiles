@@ -9,7 +9,7 @@ This is my personalized Hyprland Arch Linux setup.
 - **Launcher**: Wofi
 - **Terminal**: Alacritty
 - **GTK Theme**: [Graphite-Dark by vinceliuice](https://github.com/vinceliuice/Graphite-gtk-theme)
-- **Icon Theme**: [Tela-Black-Dark by vinceliuice](https://github.com/vinceliuice/Tela-circle-icon-theme)
+- **Icon Theme**: [Tela-Black-Dark by vinceliuice](https://github.com/vinceliuice/Tela-circle-icon-theme), Papirus Icon Theme
 - **Wallpaper**: [This beauty here](https://github.com/dharmx/walls/blob/main/gruvbox/a_street_with_buildings_and_trees.png)
 - **Fonts**: IBM Plex Sans, IBM Plex Mono, Font Awesome
 - **Notification Daemon**: Mako
@@ -24,11 +24,11 @@ This is my personalized Hyprland Arch Linux setup.
 
 **Using** `yay`:
 ```bash
-yay -Syu git hyprland waybar wofi alacritty brightnessctl swww  gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf grim slurp pavucontrol pipewire pipewire-alsa pipewire-pulse bluez-utils blueman wireplumber
+yay -Syu git hyprland waybar wofi alacritty brightnessctl swww  gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd papirus-icon-theme ncmpcpp zathura-mupdf-pdf grim slurp pavucontrol pipewire pipewire-alsa pipewire-pulse bluez-utils blueman wireplumber
 ```
 **Using** `paru`:
 ```bash
-paru -Syu git hyprland waybar wofi alacritty brightnessctl swww  gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf grim slurp pavucontrol pipewire pipewire-alsa pipewire-pulse bluez-utils blueman wireplumber
+paru -Syu git hyprland waybar wofi alacritty brightnessctl swww  gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd papirus-icon-theme ncmpcpp zathura-mupdf-pdf grim slurp pavucontrol pipewire pipewire-alsa pipewire-pulse bluez-utils blueman wireplumber
 ```
 
 ### 2. Clone this repository and copy all of the config files.
