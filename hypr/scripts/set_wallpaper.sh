@@ -16,4 +16,5 @@ if [[ -n "$SELECTED" ]]; then
   pkill waybar
   waybar
   ~/.config/mako/update-theme.sh
+  ~/.config/zathura/update-zathura-colors.sh
 fi
