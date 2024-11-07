@@ -1,2 +1,5 @@
+set default-bg rgba(16, 16, 17, 0,9)
+set default-fg rgba(78,121,126)
+set recolor-darkcolor false
 set guioptions none
 set selection-clipboard clipboard
