@@ -10,7 +10,7 @@ This is my personalized Hyprland Arch Linux setup.
 - **Terminal**: Alacritty
 - **GTK Theme**: [Graphite-Dark by vinceliuice](https://github.com/vinceliuice/Graphite-gtk-theme)
 - **Icon Theme**: [Tela-Black-Dark by vinceliuice](https://github.com/vinceliuice/Tela-circle-icon-theme)
-- **Wallpaper**: [This beauty here](https://github.com/dharmx/walls/blob/main/gruvbox/a_street_with_buildings_and_trees.png))
+- **Wallpaper**: [This beauty here](https://github.com/dharmx/walls/blob/main/gruvbox/a_street_with_buildings_and_trees.png)
 - **Fonts**: IBM Plex Sans, IBM Plex Mono, Font Awesome
 - **Notification Daemon**: Mako
 - **File Managers**: Thunar & Ranger
