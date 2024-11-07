@@ -50,7 +50,7 @@ You can follow the instructions for both GTK theme and the Icons by clicking on 
 
 For the wallpaper:
   1. Download the wallpaper by clicking on the hyperlink in **Required** section.
-  2. Create ~/Pictures/Wallpapers directory in your home folder.
+  2. Create ```~/Pictures/Wallpapers``` directory in your home folder.
   3. Put the wallpaper in the recently created Wallpapers folder
 
 If you did the steps correctly the wallpaper location should look like this:
@@ -62,15 +62,16 @@ If you did the steps correctly the wallpaper location should look like this:
 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) 
 [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)
 
-For the Font Awesome you can either download it from the internet or from AUR:
-```bash
-yay -S ttf-font-awesome
-paru -S ttf-font-awesome
-```
 After that put all of the fonts in ```~/.local/share/fonts``` folder and refresh the cache
 ```bash
 fc-cache -rv 
 ```
+For the Font Awesome you can either download it from the Internet or from AUR:
+```bash
+yay -S ttf-font-awesome
+paru -S ttf-font-awesome
+```
+
 ### 5. Final Tweaks
 Make sure that your user has sufficient access to Video, Audio, Storage and MPD groups. You can check these by writing ```groups``` in your terminal.
 If any or for some reason all of those groups are missing then you can just simply add them to the user:
