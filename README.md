@@ -91,34 +91,24 @@ Congratulations! You are done. Restart your system and from your login manager c
 
 ## Useful Keybindings
 
-- **Launch Terminal**  
-  <kbd>Mod</kbd> + <kbd>Return</kbd>    
+- **Launch Terminal**  <kbd>Mod</kbd> + <kbd>Return</kbd>    
 
-- **Kill Active Window**  
-  <kbd>Mod</kbd> + <kbd>C</kbd>  
+- **Kill Active Window**  <kbd>Mod</kbd> + <kbd>C</kbd>  
 
-- **Launch Wofi Menu**  
-  <kbd>Mod</kbd> + <kbd>R</kbd>   
+- **Launch Wofi Menu**  <kbd>Mod</kbd> + <kbd>R</kbd>   
 
-- **Launch Browser**  
-  <kbd>Mod</kbd> + <kbd>B</kbd>  
+- **Launch Browser**  <kbd>Mod</kbd> + <kbd>B</kbd>  
 
-- **Exit Environment**  
-  <kbd>Mod</kbd> + <kbd>M</kbd>  
+- **Exit Environment**   <kbd>Mod</kbd> + <kbd>M</kbd>  
 
-- **Launch File Manager (Thunar)**  
-  <kbd>Mod</kbd> + <kbd>E</kbd>  
+- **Launch File Manager (Thunar)**  <kbd>Mod</kbd> + <kbd>E</kbd>  
 
-- **Toggle Floating Window**  
-  <kbd>Mod</kbd> + <kbd>V</kbd>  
+- **Toggle Floating Window**  <kbd>Mod</kbd> + <kbd>V</kbd>  
 
-- **Toggle Split Layout**  
-  <kbd>Mod</kbd> + <kbd>J</kbd>  
+- **Toggle Split Layout**  <kbd>Mod</kbd> + <kbd>J</kbd>  
 
-- **Cycle Through Windows**  
-  <kbd>Alt</kbd> + <kbd>Tab</kbd>  
+- **Cycle Through Windows**  <kbd>Alt</kbd> + <kbd>Tab</kbd>  
 
-- **Restart Waybar**  
-  <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>  
+- **Restart Waybar**  <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>  
 
 You can see all the hyprland and application keybinds in ~/.hypr/hyprland.conf
