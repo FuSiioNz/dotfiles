@@ -24,11 +24,11 @@ This is my personalized Hyprland Arch Linux setup.
 
 **Using** `yay`:
 ```bash
-yay -Syu git hyprland waybar wofi alacritty brightnessctl gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf
+yay -Syu git hyprland waybar wofi alacritty brightnessctl swww  gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf grim slurp pavucontrol pipewire pipewire-alsa pipewire-pulse bluez-utils blueman wireplumber
 ```
 **Using** `paru`:
 ```bash
-paru -Syu git hyprland waybar wofi alacritty brightnessctl gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf
+paru -Syu git hyprland waybar wofi alacritty brightnessctl swww  gtk-engine-murrine nwg-look mako thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman gvfs-mtp ranger btop pfetch cava pywal-16-colors mpd ncmpcpp zathura-mupdf-pdf grim slurp pavucontrol pipewire pipewire-alsa pipewire-pulse bluez-utils blueman wireplumber
 ```
 
 ### 2. Clone this repository and copy all of the config files.
@@ -71,7 +71,7 @@ After that put all of the fonts in ~/.local/share/fonts folder and refresh the c
 fc-cache -rv 
 ```
 ### 5. !Important
-Make sure that your user has sufficient access to Video, Audio, Storage and MPD groups. You can check these by writing groups in your terminal.
+Make sure that your user has sufficient access to Video, Audio, Storage and MPD groups. You can check these by writing ```bash groups``` in your terminal.
 If any or for some reason all of those groups are missing then you can just simply add them to the user:
 ```bash
 sudo usermod -aG video,audio,storage,mpd <username>
@@ -86,3 +86,63 @@ If you did everything correctly both of these lines should look something like t
 ```bash
 url="https://wttr.in/London?format=%c+%t"
 tooltip=$(curl -s -H 'Cache-Control: no-cache' "https://wttr.in/London?format=4")
+```
+
+Congratulations! You are done. Restart your system and from your login manager choose Hyprland as your session if you haven't already and you are good to go.
+
+## Useful Keybinds
+
+- **Launch Terminal**
+  Mod + RETURN
+  Launches the terminal application defined by $terminal.
+  bind = $mainMod, RETURN, exec, $terminal
+
+- **Kill Active Window**
+  Mod + C
+  Closes the currently active window.
+  bind = $mainMod, C, killactive
+
+- **Launch Menu**
+  Mod + R
+  Opens the application menu defined by $menu.
+  bind = $mainMod, R, exec, $menu
+
+- **Launch Browser**
+  Mod + B
+  Opens the browser defined by $browser.
+  bind = $mainMod, B, exec, $browser
+
+- **Exit Environment**
+  Mod + M
+  Exits the current environment (e.g., session or window manager).
+  bind = $mainMod, M, exit
+
+- **Launch File Manager**
+  Mod + E
+  Opens the file manager defined by $fileManager.
+  bind = $mainMod, E, exec, $fileManager
+
+- **Toggle Floating Window**
+  Mod + V
+  Toggles the floating state of the currently focused window.
+  bind = $mainMod, V, togglefloating
+
+- **Dwindle (Pseudo)**
+  Mod + P
+  Executes the pseudo function, often used for a "dwindling" window behavior.
+  bind = $mainMod, P, pseudo, # dwindle
+
+- **Toggle Split Layout**
+  Mod + J
+  Toggles the split layout for windows, typically used in tiling window managers like dwindle.
+  bind = $mainMod, J, togglesplit, # dwindle
+
+- **Cycle Through Windows**
+  Alt + Tab
+  Cycles to the next window in the list of open windows.
+  bind = ALT, Tab, cyclenext
+
+- **Launch Custom Script**
+  Mod + SHIFT + W
+  Executes a custom script for launching specific programs or actions, in this case, launch.sh located in the Waybar scripts directory.
+  bind = $mainMod SHIFT, W, exec, ~/.config/waybar/scripts/launch.sh
