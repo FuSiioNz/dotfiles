@@ -71,7 +71,7 @@ After that put all of the fonts in ~/.local/share/fonts folder and refresh the c
 fc-cache -rv 
 ```
 ### 5. Final Tweaks
-Make sure that your user has sufficient access to Video, Audio, Storage and MPD groups. You can check these by writing ```bash groups``` in your terminal.
+Make sure that your user has sufficient access to Video, Audio, Storage and MPD groups. You can check these by writing ```groups``` in your terminal.
 If any or for some reason all of those groups are missing then you can just simply add them to the user:
 ```bash
 sudo usermod -aG video,audio,storage,mpd <username>
