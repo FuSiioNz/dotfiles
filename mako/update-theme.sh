@@ -2,13 +2,13 @@
 
 . "${HOME}/.cache/wal/colors.sh"
 
-conffile="~/.config/mako/config"
+conffile=".config/mako/config"
 
 # Associative array, color name -> color code.
 declare -A colors
 colors=(
-    ["background-color"]="${background}"
-    ["text-color"]="${foreground}"
+    ["background-color"]="${background}89"
+    ["text-color"]="$foreground"
     ["border-color"]="$color13"
 )
 
