@@ -33,9 +33,14 @@ paru -Syu git hyprland waybar wofi alacritty brightnessctl gtk-engine-murrine nw
 
 ### 2. Clone this repository and copy all of the config files.
 
+If you don't have it already, create config folder:
 ```bash
+mkdir ~/.config
+```
+
+```bash
+cd
 git clone https://github.com/FuSiioNz/dotfiles.git
-cd ~/dotfiles
 cp -r dotfiles/* ~/.config/
 ```
 
