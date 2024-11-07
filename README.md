@@ -107,13 +107,25 @@ Congratulations! You are done. Restart your system and from your login manager c
 
 - **Toggle Floating Window**  <kbd>SUPER</kbd> + <kbd>V</kbd>  
 
-- **Toggle Split Layout**  <kbd>SUPER</kbd> + <kbd>J</kbd>  
+- **Toggle Split Layout**  <kbd>SUPER</kbd> + <kbd>J</kbd>
 
 - **Cycle Through Windows**  <kbd>Alt</kbd> + <kbd>Tab</kbd>
+
+
+### Screenshots
 
 - **Region Screenshot**: <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>s</kbd>
 
 - **Full Screenshot**: <kbd>SUPER</kbd> + <kbd>Print</kbd>
+
+
+### Wofi Powermenu Keybinds
+
+- **Lock Screen**: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd>  
+
+- **Power Menu**: <kbd>Mod</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd>  
+
+- **Set Wallpaper**: <kbd>Mod</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd>  
 
 If you want to replace <kbd>SUPER</kbd> with <kbd>Alt</kbd> edit the line 120 in hyprland.conf ```$mainMod = SUPER```
   
