@@ -111,21 +111,8 @@ Congratulations! You are done. Restart your system and from your login manager c
 
 - **Cycle Through Windows**  <kbd>Alt</kbd> + <kbd>Tab</kbd>
 
+- **Region Screenshot**: <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>s</kbd>
 
-### Brightness Controls
-
-- **Decrease Brightness**: <kbd>XF86MonBrightnessDown</kbd> `bind =, XF86MonBrightnessDown, exec, ~/.config/hypr/scripts/brightness-control.sh down`
-- **Increase Brightness**: <kbd>XF86MonBrightnessUp</kbd> `bind =, XF86MonBrightnessUp, exec, ~/.config/hypr/scripts/brightness-control.sh up`
-
-### Audio Controls
-
-- **Lower Volume**: <kbd>XF86AudioLowerVolume</kbd> `bind =, XF86AudioLowerVolume, exec, ~/.config/hypr/scripts/volume-control.sh down`
-- **Raise Volume**: <kbd>XF86AudioRaiseVolume</kbd> `bind =, XF86AudioRaiseVolume, exec, ~/.config/hypr/scripts/volume-control.sh up`
-- **Mute Audio**: <kbd>XF86AudioMute</kbd> `bind =, XF86AudioMute, exec, ~/.config/hypr/scripts/volume-control.sh mute`
-
-### Screenshot Controls
-
-- **Region Screenshot**: <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>s</kbd> `bind = $mainMod SHIFT, s, exec, ~/.config/hypr/scripts/screenshot.sh region`
-- **Full Screenshot**: <kbd>Mod</kbd> + <kbd>Print</kbd> `bind = $mainMod, Print, exec, ~/.config/hypr/scripts/screenshot.sh`
-
+- **Full Screenshot**: <kbd>Mod</kbd> + <kbd>Print</kbd>
+  
 You can see all the hyprland and application keybinds in ~/.hypr/hyprland.conf
