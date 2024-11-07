@@ -1,0 +1,85 @@
+sw_volume: 100
+audio_device_state:0:ALSA [Bit-perfect]
+audio_device_state:1:PulseAudio
+audio_device_state:1:Visualizer
+state: play
+current: 35
+time: 30.020000
+random: 1
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Junko Ohashi - MAGICAL (1984)/07 - テレフォン・ナンバー.flac
+1:Astrophysics - Hacking To The Gate (synthwave-retro 80's remix).flac
+2:Astrophysics - Out Of Touch Thursday! (Synthwave Remix).m4a
+3:Bluesette (ブルーゼット) - Only You オンリー・ユー (Album Mix).mp3
+4:C418 - Aria Math (Synthwave).mp3
+5:Persona 3 Reload OST ~ Tranquility + Want To Be Close.mp3
+6:Phil Collins - In The Air Tonight ('Panski & John Skyfield Remix).mp3
+7:RŮDE - Eternal Youth.flac
+8:Vicetone vs. Popeska - The New Kings ft. Luciana (Extended Mix).m4a
+9:vis-a-vis ／ TRISTE.opus
+10:Yosuto - High Roller.flac
+11:ATLUS Music - Tranquility + Want To Be Close.mp3
+12:Lyn - Beneath the Mask.flac
+13:Fleetwood Mac - Sara (2018 Remaster).flac
+14:dj-Nate - Electrodynamix.flac
+15:Casey Edwards, Victor Borba - Bury the Light.flac
+16:Isaak Wolf - Sundown Shutdown.flac
+17:Isaak Wolf - Calm Stasis.flac
+18:Isaak Wolf - Melancholy.flac
+19:Djvi - Can't Let Go.flac
+20:Tame Impala - Let It Happen.flac
+21:Tame Impala - The Less I Know The Better.flac
+22:Unicorn Heads - Song of Mirrors.flac
+23:Astrophysics - Essence of Nostalgia EP - 04 Baka Mitai feat. Shun Akiyama.flac
+24:Mariya Takeuchi - Plastic Love.flac
+25:Anri - Last Summer Whisper.flac
+26:Radiohead - Everything In Its Right Place.flac
+27:Various Artists - Jhove - It All.flac
+28:Benja - Libelle.flac
+29:Chitose Fujimiya(Anjyu Inami) - Honolulu City Lights [Full Spec Edition].flac
+30:Miki Matsubara - Mayonaka no Door _ Stay With Me.flac
+31:The Midnight - Shadows.flac
+32:The Midnight - Collateral.flac
+33:The Midnight - River of Darkness.flac
+34:The Midnight - Light Years.flac
+35:Dream Theater - Octavarium.flac
+36:Omori - An Archaeic Resonance.flac
+37:Omori - Poems in the Fog.flac
+38:Omori - I Will Catch up!.flac
+39:Omori - Finding Shapes in the Clouds.flac
+40:Omori - The Heart of the Desert.flac
+41:Mayumi Fujita - Time.flac
+42:ATLUS GAME MUSIC - Color Your Night.flac
+43:Pink Floyd - Terminal Frost (Remix 2019).flac
+44:Tove Lo - Habits (Stay High).flac
+45:Dion Timmer - Shiawase (VIP).flac
+46:Nycto - Forlorn Soul.flac
+47:Nycto - Lonesome Flower.flac
+48:03. GATE OF STEINER -Main theme-.flac
+49:Sid Acharya - Falling Through the Hourglass.flac
+50:Sid Acharya - Into Midnight.flac
+51:Dimrain47 - The Falling Mysts.flac
+52:Tame Impala - Borderline.flac
+53:Anri - SHYNESS BOY.flac
+54:Jamiroquai - Virtual Insanity (Remastered 2013).flac
+55:Northumbria - Still Valley II.flac
+56:Lena Raine - Resurrections.flac
+57:Lena Raine - Scattered and Lost.flac
+58:Persona 3 OST - Tartarus Blocks 1-6 Mix.mp3
+59:Kevin Penkin - OLD STORIES.ogg
+60:Himiko Kikuchi - FLYING BEAGLE (1987)/1. Himiko Kikuchi - Look Your Back!.flac
+61:Himiko Kikuchi - FLYING BEAGLE (1987)/2. Himiko Kikuchi - A Seagull & Clouds.flac
+62:Himiko Kikuchi - FLYING BEAGLE (1987)/3. Himiko Kikuchi - Flying Beagle.flac
+63:Himiko Kikuchi - FLYING BEAGLE (1987)/4. Himiko Kikuchi - Fluffy.flac
+64:Himiko Kikuchi - FLYING BEAGLE (1987)/5. Himiko Kikuchi - Sand Storm.flac
+65:Himiko Kikuchi - FLYING BEAGLE (1987)/6. Himiko Kikuchi - Baby Talk.flac
+66:Himiko Kikuchi - FLYING BEAGLE (1987)/7. Himiko Kikuchi - The Second Summer.flac
+67:Himiko Kikuchi - FLYING BEAGLE (1987)/8. Himiko Kikuchi - Ducky Ducky.flac
+68:Rob Scallon - Rain (Live & Acoustic).flac
+playlist_end
