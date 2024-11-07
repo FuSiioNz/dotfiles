@@ -1,0 +1,14 @@
+
+[window]
+padding = {x = 10, y = 10}
+
+[font]
+normal = {family = "IBM Plex Mono", style = "medium"}
+italic = {family = "IBM Plex Mono", style = "medium italic"}
+bold = {family = "IBM Plex Mono", style = "bold"}
+
+size = 10.50
+
+[general]
+import = ["~/.cache/wal/colors-alacritty.toml"]
+
